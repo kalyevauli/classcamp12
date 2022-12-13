@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b3ccda9-d221-4157-ae10-dc0c836c398f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IXtD6BZpiUljDsA6WrMn6jcwNf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projekt/classcamp&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projekt\classcamp" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b3ccda9-d221-4157-ae10-dc0c836c398f" name="Changes" comment="" />
+      <created>1670339632467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670339632467</updated>
+      <workItem from="1670339633646" duration="103000" />
+      <workItem from="1670339766978" duration="4756000" />
+      <workItem from="1670402409803" duration="837000" />
+      <workItem from="1670408070685" duration="534000" />
+      <workItem from="1670408638511" duration="2519000" />
+      <workItem from="1670432356981" duration="3809000" />
+      <workItem from="1670443381947" duration="94000" />
+      <workItem from="1670494432728" duration="6044000" />
+      <workItem from="1670510116353" duration="789000" />
+      <workItem from="1670512450225" duration="1546000" />
+      <workItem from="1670516629825" duration="527000" />
+      <workItem from="1670528614970" duration="1639000" />
+      <workItem from="1670607415237" duration="5840000" />
+      <workItem from="1670615107186" duration="378000" />
+      <workItem from="1670668941061" duration="239000" />
+      <workItem from="1670669407013" duration="306000" />
+      <workItem from="1670676895929" duration="3012000" />
+      <workItem from="1670683221872" duration="2655000" />
+      <workItem from="1670686749101" duration="496000" />
+      <workItem from="1670687268085" duration="1807000" />
+      <workItem from="1670836957358" duration="1520000" />
+      <workItem from="1670841896565" duration="872000" />
+      <workItem from="1670919968257" duration="1177000" />
+      <workItem from="1670926887470" duration="1520000" />
+      <workItem from="1670941812579" duration="1220000" />
+      <workItem from="1670943067183" duration="296000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background: black;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+    backdrop-filter: blur(5px);
+    background: white;
+    opacity: .6;
+    animation: 2s uli alternate;
+}
+@keyframes uli {
+    0%{
+        transform: translateY(-1200px);
+    }
+    100%{
+        transition: .4s;
+        transform: scale(1.1);
+    }
+}
+.circle-ion{
+    font-size: 40px;
+    color: white;
+}
+.navbar-title h1{
+    font-weight: 800;
+}
+.navbar-desc a{
+   padding: 0 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+.rt-img{
+    animation: 2s ani alternate;
+}
+@keyframes ani {
+    0%{
+        transform: translateX(-1200px);
+    }
+}
+.navbar-btn{
+    padding: 5px 15px;
+}
+.navbar-btn button{
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.navbar-btn button:hover{
+    transition: .4s;
+    transform: scale(1.1);
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero h1{
+    margin: 20px;
+    padding: 120px 0;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 73px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero p{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+.hero-group-btn{
+    width: 281px;
+    height: 66px;
+    background: #FF4343;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 26px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.hero {
+    margin: 40px;
+}
+.hero-group button{
+    margin: 20px 550px;
+    text-align: center;
+}
+.hero-group button:hover{
+    transition: .4s;
+    transform: scale(1.1);
+    background: #FFFFFF;
+    color: chocolate;
+    cursor: pointer;
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+}
+.hero-content-img{
+    position: absolute;
+    right: 100px;
+    animation: 2s op alternate;
+}
+@keyframes op {
+    0%{
+        transform: translateX(1200px);
+    }
+}
+.shoot-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoot-title-desc h1{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    padding: 30px 0;
+}
+.shoot-desc{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.work{
+    animation: 2s work alternate;
+}
+@keyframes work {
+    0%{
+        transform: translateX(-1200px);
+    }
+}
+.shoot-desc-img{
+    position: absolute;
+    right: -10px;
+    animation: 2s cold alternate;
+}
+@keyframes cold {
+    0%{
+        transform: translateX(1200px);
+    }
+}
+
+.shoot-title-desc p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.shoot{
+    margin: 40px;
+}
+.desc-title{
+    display: flex;
+    align-items: center;
+}
+.desc-title-logo h1{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.desc-title-logo p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.desc-logo{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.desc-logo-img{
+    position: absolute;
+    right: -10px;
+    animation: 2s les alternate;
+}
+@keyframes les {
+    0%{
+        transform: translateX(-1200px);
+    }
+}
+.cold{
+    animation: 2s ana alternate;
+}
+@keyframes ana {
+    0%{
+        transform: translateY(1200px);
+    }
+}
+
+.servis-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.servis-title-desc h1{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.servis-title-desc p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.servis{
+    margin: 40px;
+}
+.servis-square{
+    width: 500px;
+    height: 350px;
+    background: #1D1B24;
+    border-radius: 15px;
+    animation: 2s right alternate;
+}
+@keyframes right {
+    0%{
+        transform: translateX(1200px);
+    }
+}
+.circle{
+    box-shadow: 10px 10px 10px #bb1919;
+    width: 400px;
+    height: 90px;
+    background: black;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.umka{
+    color: white;
+   padding: 20px 5px;
+}
+.uli{
+    width: 50px;
+    height: 30px;
+    background: #FF4343;
+    border: none;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+#share{
+    padding: 40px 0;
+}
+
+.share{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.share-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 370px;
+    background: #1D1B24;
+    border-radius: 15px;
+    animation: 2s www alternate;
+}
+@keyframes www {
+    0%{
+        transform: translateX(-1200px);
+    }
+}
+.share-uli{
+    width: 70px;
+    height: 330px;
+    background: black;
+    border-radius: 10px;
+    margin-left: 1px;
+}
+.share-uli:hover{
+    transition: .4s;
+    transform: scale(1.1);
+    background: black;
+}
+.share-uli ion-icon{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.share-title h1{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.share-title p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.their-title-p1{
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #8BFFB0;
+
+}
+.their-title-h1{
+    font-weight: 400;
+    font-size: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 30px;
+}
+.their-title-p2{
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.their{
+    margin: 40px;
+  padding: 30px 0;
+}
+
+.logo-p{
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #8BFFB0;
+
+}
+.logo-h1{
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 58px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.logo-p2{
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.logo-img{
+    margin: 30px 70px;
+}
+
+.will-title h1{
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 63px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.will-title p{
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+.will{
+    background: #1D1B24;
+    border-radius: 30px;
+    margin-left: 70px;
+}
+.will-title button{
+    font-weight: 400;
+    font-size: 23px;
+    color: #FFFFFF;
+    width: 281px;
+    height: 66px;
+    background: #FF4343;
+    border-radius: 10px;
+    margin: 20px 550px;
+}
+
+
+.swiper {
+    width: 30%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tell h1{
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 0;
+    margin-right: 220px;
+}
+.tell p{
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+.tell-img{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.tell-title{
+    position: absolute;
+    right:100px;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+
+}
+.square{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    width: 660px;
+    height: 455px;
+    background: #8BFFB0;
+    animation: 2s ttt alternate;
+}
+@keyframes ttt {
+    0%{
+        transform: translateX(1200px);
+    }
+}
+.square-img{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.square-title{
+    margin: 30px;
+    position: absolute;
+    right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-title-p{
+    margin: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:darkgreen;
+
+
+}
+.home-title-h1{
+    font-weight: 400;
+    font-size: 29px;
+    color: #FFFFFF;
+    padding: 0 40px 40px;
+}
+.home-title-p1{
+    padding:0 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.home-title button{
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+    background: #8BFFB0;
+    margin: 90px;
+    border: none;
+}
+.home-title button:hover{
+    transition: .4s;
+    transform: scale(1.1);
+    background: white;
+    color: #8BFFB0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.footer{
+    margin: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-desc h1{
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.footer-desc p{
+    margin-bottom: 5px;
+}
+.footer-art h1{
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.footer-art p{
+    margin-bottom: 5px;
+}
+.footer-will h1{
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.footer-will p{
+    margin-bottom: 5px;
+}
+.footer-ion ion-icon{
+    color: white;
+   padding: 0 10px;
+    font-size: 40px;
+}
+.hero-group span{
+    color: white;
+    padding: 5px 530px;
+}
+.square
+
